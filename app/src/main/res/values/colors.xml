@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the playlist category -->
+    <color name="category_playlist">#FD8E09</color>
+
+    <!-- Background color for the albums category -->
+    <color name="category_albums">#379237</color>
+
+    <!-- Background color for the search category -->
+    <color name="category_search">#8800A0</color>
+
+    <!-- Background color for the store category -->
+    <color name="category_store">#16AFCA</color>
+</resources>

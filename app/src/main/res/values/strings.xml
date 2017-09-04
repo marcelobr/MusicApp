@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <!-- Category name for playlist [CHAR LIMIT=20] -->
+    <string name="category_playlist">Playlist</string>
+
+    <!-- Category name for albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for search [CHAR LIMIT=20] -->
+    <string name="category_search">Search</string>
+
+    <!-- Category name for store [CHAR LIMIT=20] -->
+    <string name="category_store">Store</string>
+</resources>
