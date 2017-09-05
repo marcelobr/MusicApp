@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,16 +15,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the playlist category
-        TextView playlist = (TextView) findViewById(R.id.playlist);
+        Button playlist = (Button) findViewById(R.id.playlist);
 
         // Find the View that shows the albums category
-        TextView albums = (TextView) findViewById(R.id.albums);
+        Button albums = (Button) findViewById(R.id.albums);
 
         // Find the View that shows the search category
-        TextView search = (TextView) findViewById(R.id.search);
+        Button search = (Button) findViewById(R.id.search);
 
         // Find the View that shows the store category
-        TextView store = (TextView) findViewById(R.id.store);
+        Button store = (Button) findViewById(R.id.store);
 
         // Set a click listener on that View
         playlist.setOnClickListener(new View.OnClickListener() {

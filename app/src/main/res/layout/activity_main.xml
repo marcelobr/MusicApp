@@ -6,25 +6,25 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicapp.MainActivity">
 
-    <TextView
+    <Button
         android:id="@+id/playlist"
         style="@style/CategoryStyle"
         android:background="@color/category_playlist"
         android:text="@string/category_playlist" />
 
-    <TextView
+    <Button
         android:id="@+id/albums"
         style="@style/CategoryStyle"
         android:background="@color/category_albums"
         android:text="@string/category_albums" />
 
-    <TextView
+    <Button
         android:id="@+id/search"
         style="@style/CategoryStyle"
         android:background="@color/category_search"
         android:text="@string/category_search" />
 
-    <TextView
+    <Button
         android:id="@+id/store"
         style="@style/CategoryStyle"
         android:background="@color/category_store"

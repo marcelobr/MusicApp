@@ -12,4 +12,13 @@
 
     <!-- Category name for store [CHAR LIMIT=20] -->
     <string name="category_store">Store</string>
+
+    <!-- Category name for music player [CHAR LIMIT=20] -->
+    <string name="category_player">Music Player</string>
+
+    <!-- Text for go to music player button [CHAR LIMIT=20] -->
+    <string name="go_to_music_player">Player</string>
+
+    <!-- Text for playlist activy [CHAR LIMIT=140] -->
+    <string name="playlist_activity_text">This activity should have a list containing all the songs in the user playlist. When selecting a song from the list, music player activity should be displayed.</string>
 </resources>
