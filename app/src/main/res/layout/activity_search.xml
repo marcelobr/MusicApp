@@ -10,4 +10,9 @@
         style="@style/TextActivityStyle"
         android:text="@string/search_activity_text" />
 
+    <Button
+        android:id="@+id/go_to_home"
+        style="@style/ButtonActivityStyle"
+        android:text="@string/go_to_home"/>
+
 </LinearLayout>

@@ -16,6 +16,9 @@ public class PlaylistActivity extends AppCompatActivity {
         // Find the Button that start the music player activity
         Button player = (Button) findViewById(R.id.go_to_player);
 
+        // Find the Button that returns to the home screen
+        Button homeButton = (Button) findViewById(R.id.go_to_home);
+
         // Set a click listener on that View
         player.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the player Button is clicked on.
@@ -23,6 +26,16 @@ public class PlaylistActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent playerIntent = new Intent(PlaylistActivity.this, MusicPlayerActivity.class);
                 startActivity(playerIntent);
+            }
+        });
+
+        // Set a click listener on that View
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the home Button is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(PlaylistActivity.this, MainActivity.class);
+                startActivity(homeIntent);
             }
         });
     }

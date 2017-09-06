@@ -25,6 +25,9 @@
     <!-- Text for album tracklist button [CHAR LIMIT=20] -->
     <string name="go_to_track_list">Tracklist</string>
 
+    <!-- Text for home button [CHAR LIMIT=20] -->
+    <string name="go_to_home">Home</string>
+
     <!-- Text for playlist activity [CHAR LIMIT=140] -->
     <string name="playlist_activity_text">This activity should have a list containing all the songs in the user playlist. When selecting a song from the list, music player activity should be displayed</string>
 
