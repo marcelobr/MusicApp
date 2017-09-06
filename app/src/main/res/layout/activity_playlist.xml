@@ -7,17 +7,12 @@
     tools:context="com.example.android.musicapp.PlaylistActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        style="@style/TextActivityStyle"
         android:text="@string/playlist_activity_text" />
 
     <Button
         android:id="@+id/go_to_player"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        style="@style/ButtonActivityStyle"
         android:text="@string/go_to_music_player"/>
 
 </LinearLayout>

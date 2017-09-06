@@ -4,10 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicapp.StoreActivity">
+    tools:context="com.example.android.musicapp.TrackListActivity">
 
     <TextView
         style="@style/TextActivityStyle"
-        android:text="@string/store_activity_text" />
+        android:text="@string/tracklist_activity_text" />
+
+    <Button
+        android:id="@+id/go_to_player"
+        style="@style/ButtonActivityStyle"
+        android:text="@string/go_to_music_player"/>
 
 </LinearLayout>

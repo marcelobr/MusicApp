@@ -31,6 +31,9 @@
         <activity
             android:name=".MusicPlayerActivity"
             android:label="@string/category_player" />
+        <activity
+            android:name=".TrackListActivity"
+            android:label="@string/category_track_list" />
     </application>
 
 </manifest>

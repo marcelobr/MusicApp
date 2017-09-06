@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PlaylistActivity extends AppCompatActivity {
+public class TrackListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_playlist);
+        setContentView(R.layout.activity_track_list);
 
         // Find the Button that start the music player activity
         Button player = (Button) findViewById(R.id.go_to_player);
@@ -21,7 +21,7 @@ public class PlaylistActivity extends AppCompatActivity {
             // The code in this method will be executed when the player Button is clicked on.
             @Override
             public void onClick(View view) {
-                Intent playerIntent = new Intent(PlaylistActivity.this, MusicPlayerActivity.class);
+                Intent playerIntent = new Intent(TrackListActivity.this, MusicPlayerActivity.class);
                 startActivity(playerIntent);
             }
         });

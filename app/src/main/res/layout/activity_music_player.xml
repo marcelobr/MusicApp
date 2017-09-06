@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.musicapp.MusicPlayerActivity">
+
+    <TextView
+        style="@style/TextActivityStyle"
+        android:text="@string/player_activity_text" />
 
 </LinearLayout>

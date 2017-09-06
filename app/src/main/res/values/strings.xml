@@ -16,9 +16,30 @@
     <!-- Category name for music player [CHAR LIMIT=20] -->
     <string name="category_player">Music Player</string>
 
-    <!-- Text for go to music player button [CHAR LIMIT=20] -->
+    <!-- Category name for tracklist [CHAR LIMIT=20] -->
+    <string name="category_track_list">Tracklist</string>
+
+    <!-- Text for music player button [CHAR LIMIT=20] -->
     <string name="go_to_music_player">Player</string>
 
-    <!-- Text for playlist activy [CHAR LIMIT=140] -->
-    <string name="playlist_activity_text">This activity should have a list containing all the songs in the user playlist. When selecting a song from the list, music player activity should be displayed.</string>
+    <!-- Text for album tracklist button [CHAR LIMIT=20] -->
+    <string name="go_to_track_list">Tracklist</string>
+
+    <!-- Text for playlist activity [CHAR LIMIT=140] -->
+    <string name="playlist_activity_text">This activity should have a list containing all the songs in the user playlist. When selecting a song from the list, music player activity should be displayed</string>
+
+    <!-- Text for tracklist activity [CHAR LIMIT=140] -->
+    <string name="tracklist_activity_text">This activity should have a list containing the album tracklist. When selecting a song from the list, music player activity should be displayed</string>
+
+    <!-- Text for music player activity [CHAR LIMIT=140] -->
+    <string name="player_activity_text">This activity should use an API to implement a music player</string>
+
+    <!-- Text for albums activity [CHAR LIMIT=140] -->
+    <string name="albums_activity_text">This activity should have a list containing all the user\'s music albums. Each item in the list will have an image and the title of the album. When an album is selected, a new activity containing the album tracklist will be displayed</string>
+
+    <!-- Text for search activity [CHAR LIMIT=140] -->
+    <string name="search_activity_text">This activity should use a Music Search API with categorization options by title, singer or album</string>
+
+    <!-- Text for store activity [CHAR LIMIT=140] -->
+    <string name="store_activity_text">This activity should contain a list of songs and albums available for purchase. It should also use a Music Buying API</string>
 </resources>
